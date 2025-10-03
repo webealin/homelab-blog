@@ -1,3 +1,7 @@
 # Hugo specific
 /public/
 /resources/
+.hugo_build.lock
+
+# Node specific
+node_modules/
