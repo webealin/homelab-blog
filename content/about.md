@@ -26,7 +26,7 @@ In my current position I'm bridging the gap between data science, software devel
 
 {{< timeline >}}
 
-{{< timelineItem icon="mug-hot" header="Professional Experience" badge="2017 - present" md=true >}}
+{{< timelineItem icon="mug-hot" header="Professional Experience" badge="2018 - present" md=true >}}
 
 **IT Professional@Public Sector** (since 2018)
 - **DevOps:** Designed and established an infrastructure for software development in an air-gapped environment, enabling modern workflows for inhouse developers
