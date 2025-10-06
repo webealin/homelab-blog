@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Webernet-Online"
 
 [params]
   displayName = "EN"
@@ -11,18 +11,17 @@ title = "Blowfish"
   dateFormat = "2 January 2006"
   logo = "img/blowfish_logo.png"
   # secondaryLogo = ""
-  description = "My awesome website"
+  description = "My personal homelab blog"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
   name = "Alina Weber"
-  email = "webernet.online@gmail.com"
-  image = "img/blowfish_logo.png"
+  email = "info@webernet-online.de"
   imageQuality = 96
   headline = "Nerd, Outdoor- and Photography-Enthusiast"
-  bio = "A little bit about you"
+  bio = "Software Engineer specializing in DevOps & Backend Development"
   links = [
-    { email = "mailto:webernet.online@gmail.com" },
+    { email = "mailto:info@webernet-online.de" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
