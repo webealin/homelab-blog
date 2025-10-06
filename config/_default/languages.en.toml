@@ -9,7 +9,7 @@ title = "Webernet-Online"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/blowfish_logo.png"
+  # logo = "img/blowfish_logo.png"
   # secondaryLogo = ""
   description = "My personal homelab blog"
   # copyright = "Copy, _right?_ :thinking_face:"
@@ -17,6 +17,7 @@ title = "Webernet-Online"
 [params.author]
   name = "Alina Weber"
   email = "info@webernet-online.de"
+  image = "img/cropped-arthurs.png"
   imageQuality = 96
   headline = "Nerd, Outdoor- and Photography-Enthusiast"
   bio = "Software Engineer specializing in DevOps & Backend Development"

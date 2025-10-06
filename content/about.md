@@ -8,7 +8,6 @@ showAuthor: false
 showWordCount: false
 showDate: false
 showReadingTime: false
-# layout: simple
 ---
 
 ![Arthurs Seat (Edinburgh)](/img/arthurs_seat.jpg "Well, that's me! *(Edinburgh June 2025)*")
