@@ -24,7 +24,7 @@ Albert-Einstein-Str. 47 \
 
 E-Mail-Adresse: info@webernet-online.de
 
-Impressum: <a href="https://blog.webernet-online.de/legal-notice" target="_blank">https://blog.webernet-online.de/legal-notice</a>
+Impressum: <a href="https://webernet.dev/legal-notice" target="_blank">https://webernet.dev/legal-notice</a>
 
 ## Übersicht der Verarbeitungen
 
@@ -150,7 +150,7 @@ Die Einbindung setzt immer voraus, dass die Drittanbieter dieser Inhalte die IP-
 **Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:**
 
 - **Einbindung von Drittsoftware, Skripten oder Frameworks (z. B. jQuery):** Wir binden in unser Onlineangebot Software ein, die wir von Servern anderer Anbieter abrufen (z. B. Funktions-Bibliotheken, die wir zwecks Darstellung oder Nutzerfreundlichkeit unseres Onlineangebotes verwenden). Hierbei erheben die jeweiligen Anbieter die IP-Adresse der Nutzer und können diese zu Zwecken der Übermittlung der Software an den Browser der Nutzer sowie zu Zwecken der Sicherheit, als auch zur Auswertung und Optimierung ihres Angebotes verarbeiten. - Wir binden in unser Onlineangebot Software ein, die wir von Servern anderer Anbieter abrufen (z. B. Funktions-Bibliotheken, die wir zwecks Darstellung oder Nutzerfreundlichkeit unseres Onlineangebotes verwenden). Hierbei erheben die jeweiligen Anbieter die IP-Adresse der Nutzer und können diese zu Zwecken der Übermittlung der Software an den Browser der Nutzer sowie zu Zwecken der Sicherheit, als auch zur Auswertung und Optimierung ihres Angebotes verarbeiten; **Rechtsgrundlagen:** Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
-- **Font Awesome (Bereitstellung auf eigenem Server): **Darstellung von Schriftarten und Symbolen; **Dienstanbieter:** Die Font Awesome Icons werden auf unserem Server gehostet, es werden keine Daten an den Anbieter von Font Awesome übermittelt; **Rechtsgrundlagen:** Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+- **Font Awesome (Bereitstellung auf eigenem Server):** Darstellung von Schriftarten und Symbolen; **Dienstanbieter:** Die Font Awesome Icons werden auf unserem Server gehostet, es werden keine Daten an den Anbieter von Font Awesome übermittelt; **Rechtsgrundlagen:** Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
 
 ## Änderung und Aktualisierung
 
