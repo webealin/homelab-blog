@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-description: "..."
+description: "Some information about the author of this blog"
 date: 2025-10-03T17:33:15+02:00
 draft: false
 robots: noindex
