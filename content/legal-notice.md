@@ -33,4 +33,7 @@ You can also reach out to me using [GitHub](https://github.com/webealin)
 
 ## Privacy Policy (Datenschutzerklärung)
 
-Please also refer to the [Privacy Policy](/privacy_policy) for information about how personal data is collected, used and shared by this site.
+Please also refer to the [Privacy Policy](/privacy-policy) for information about how personal data is collected, used and shared by this site.
+
+## Disclaimer
+
