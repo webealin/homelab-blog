@@ -17,9 +17,9 @@ This is not only the start of an article series on **How to start a blog (2025)*
 
 Actually there are quite a few reasons:
 
-- A few months ago a close friend of mine told me she was going to start an animal welfare association and wanted me to help her launch a website. So what could be a better motivation to check out some CMS software than **helping puppies**? :dog:
+- A few months ago, a close friend of mine told me she was going to start an animal welfare association and wanted me to help her launch a website. So what could be a better motivation to check out some CMS software than **helping puppies**? :dog:
 - While there are already many pretty awesome blogs in the homelab community, I always had the feeling that they often **only show you the basic stuff** and leave you alone when it comes to the more interesting problems. For example there are countless tutorials on how to set up a reverse proxy and use let's encrypt to get valid certificates for your internal services, but there is basically nothing on how to use the very same technology to get certificates for LDAPS.
-- Ever had to pause on a project for a few weeks or even months and found some pretty weird config settings you had absolutely no clue about anymore? Been there, done that. There were just too many times I couldn't for the life of me remember why I chose to set up the service the way I did. So this blog hopefully will also serve me as a **documentation of my homelab** in case of desaster recovery.
+- Ever had to pause on a project for a few weeks or even months and found some pretty weird config settings you had absolutely no clue about anymore? Been there, done that. There were just too many times I couldn't for the life of me remember why I chose to set up the service the way I did. So this blog hopefully will also serve me as a **documentation of my homelab** in case of disaster recovery.
 
 That's why I decided to start this blog and provide an article series about how to start a homelab from scratch. Starting with the install of the hypervisor and going through parts like adding reverse proxies, authentication and monitoring services while also paying attention to coding best practices like linting or security checks along our way.
 
@@ -31,7 +31,7 @@ In this tutorial we will set up a [Hugo](https://gohugo.io) project, configure t
 
 [Hugo](https://gohugo.io) is an open source static site generator. That means, that it takes ordinary markdown files and creates a static website out of it in milliseconds. There is no database involved and it's incredibly fast. You can add your markdown files to a version control system and have the page hosted using a platform like [GitHub Pages](https://pages.github.com) or [Cloudflare Pages](https://pages.cloudflare.com/). As it is way less complex than a full blown CMS like [WordPress](https://wordpress.com), it is also easier to set up and has less security problems.
 
-While there are also other popular static site generators like [Jekyll](https://jekyllrb.com/), [Eleventy](https://www.11ty.dev/) or [Gatsby](https://www.gatsbyjs.com/), I decided to go with Hugo as it seems to be one of the most widely used ones and is written in Golang.
+While there are other popular static site generators like [Jekyll](https://jekyllrb.com/), [Eleventy](https://www.11ty.dev/) or [Gatsby](https://www.gatsbyjs.com/), I decided to go with Hugo as it seems to be one of the most widely used ones and is written in Golang.
 
 ## Pre-Requisites
 
@@ -40,8 +40,8 @@ So what will you need to follow along with this tutorial? Actually not that much
 - **the code editor of your choice:** I'm using VS Code with the WSL plugin here but use whatever editor you are comfortable with.
 - **a GitHub account:** Well, that one most of you will already have anyways and in case you don't, it shouldn't be too challenging.
 - **some basic knowledge of markdown and git:** Or at the very least you should know what the both of them are. Most modern code editors do the hard work of git commands for you anyways. If you're not comfortable with markdown yet, there is a pretty good documentation called [Markdown Guide](https://www.markdownguide.org/) you can check out first.
-- **a registered domain:** *(optional)* While this one is not really necessary to follow along, I would really recommend you to get one. It's not as expensive as you might think (I'm paying 24 € a year for this one) and makes your blog look way more professional.
-- **a cup of *whatever your favorite hot drink is*:** Yep, already quite cold outside here in Germany.
+- **a registered domain:** *(optional)* While this one is not really necessary to follow along, I would really recommend you to get one. It's not as expensive as you might think (I'm only paying 24 € a year for this one) and makes your blog look way more professional.
+- **a cup of *whatever your favorite hot drink is*:** Yep, it's already quite cold outside here in Germany.
 
 ## Installing Hugo
 
@@ -68,7 +68,7 @@ Note that you might need to restart your terminal session after that.
 
 ## Creating your project
 
-As already stated, we want to host the blog using GitHub Pages, so the very first step will be to create a repository for it. Head over to [GitHub](https://github.com) and create a new repository which is named `<your username>.github.io`. In my case, this is going to be `webealin.github.io`. A bit of a caveat here is, that your repository has to be public, if you're not a GitHub pro user. But I guess it is not that much of a problem as the blog is going to be publicly hosted anyways.
+As already stated, we want to host the blog using GitHub Pages, so the very first step will be to create a repository for it. Head over to [GitHub](https://github.com) and create a new repository which is named `<your username>.github.io`. In my case, this is going to be `webealin.github.io`. A bit of a caveat here is that your repository has to be public, if you're not a GitHub pro user. But I guess it's not that much of a problem as the blog is going to be publicly hosted anyways.
 
 {{< alert >}}
 **Warning!** It is pretty important, that you call the repository exactly like that. Your blog will later be published under that subdomain. If you would call the repository for example `myblog`, the blog would later be hosted under `<your username>.github.io/myblog` which is probably not what you wanted to end up with.
@@ -95,7 +95,7 @@ git push -u origin main
 
 You can start the hugo server using `hugo server` command now, which will tell you that the site is available under [http://localhost:1313/](http://localhost:1313/). Unfortunately, this only gives us a *Page Not Found* error. The reason is, that we did not add any layout yet.
 
-But you may have noticed, that starting the server created a new *public* folder and a *.hugo_build.lock* in our project directory. Let's add them and another folder that doesn't exist yet to the *.gitignore* file so that we don't accidentally commit them.
+But you may have noticed, that starting the server created a new *public* folder and a *.hugo_build.lock* in our project directory. Let's add them and another *resources* folder that doesn't exist yet to the *.gitignore* file so that we don't accidentally commit them.
 
 ```gitignore
 # Hugo specific
@@ -106,7 +106,7 @@ But you may have noticed, that starting the server created a new *public* folder
 
 ## Changing the look & feel
 
- While you could theoretically write your own layout, easiest is to use one of the various [themes](https://themes.gohugo.io/) hugo provides. The ones I liked most are [Blowfish](https://blowfish.page/), [Congo](https://themes.gohugo.io/themes/congo/) and [LoveIt](https://hugoloveit.com/). Turns out, Blowfish is basically a fork of Congo and as it has a pretty detailed [documentation](https://blowfish.page/docs/) I will install this one for the blog.
+ While you could theoretically write your own layout, it's easiest to use one of the various [themes](https://themes.gohugo.io/) hugo provides. The ones I like most are [Blowfish](https://blowfish.page/), [Congo](https://themes.gohugo.io/themes/congo/) and [LoveIt](https://hugoloveit.com/). Turns out, Blowfish is basically a fork of Congo and as it has a pretty detailed [documentation](https://blowfish.page/docs/) I will install this one for the blog.
 
 {{< alert "lightbulb" >}}
 **Note!** While you can absolutely take any theme you want, note that the configuration from this point on depends on the theme you use!
@@ -166,7 +166,7 @@ If you start your server now using the `hugo server` command, you will have the 
 
 ![Blog Landing page](/blog.png)
 
-Make sure to head over to the [configuration documentation](https://blowfish.page/docs/getting-started/) of Blowfish when you're done with this to tutorial. You can check out all the options you can tweak on that page to make the design fit your needs.
+Make sure to head over to the [configuration documentation](https://blowfish.page/docs/getting-started/) of Blowfish when you're done with this tutorial. You can check out all the options you can tweak on that page to make the design fit your needs.
 
 ## Adding some first content
 
@@ -273,7 +273,7 @@ Then create a new GitHub actions file at *.github/workflows/hugo.yaml* with the 
     dir = ':cacheDir/images'
 ```
 
-Commit and push your changes. Then open up the *Actions* tab in your GitHub repository and see your page being deployed! Less than a minute later you should be able to open [https://\<your username\>.github.io](https://your_username.github.io) to see your blog in action.
+Commit and push your changes. Then open up the *Actions* tab in your GitHub repository and see your page being deployed! Less than a minute later, you should be able to open [https://\<your username\>.github.io](https://your_username.github.io) to see your blog in action.
 
 :tada: **Congratulations** :tada: - You are up and running now!
 
