@@ -17,12 +17,13 @@
 
 [[main]]
   name = "Guides"
+  pageRef = "series"
   weight = 20
 
 [[main]]
   name = "The Beginning - How to start a Blog (2025)"
   parent = "Guides"
-  pageRef = "posts"
+  pageRef = "How to Start a Blog"
   weight = 10
 
 #[[main]]
