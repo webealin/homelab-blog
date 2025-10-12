@@ -287,7 +287,7 @@ So what's next? As stated in the beginning, this is supposed to be an article se
 
 References to the tools and products used within this tutorial
 
-- **Hugo:** [https://gohugo.io](https://gohugo.io)
-- **Hugo Documentation:** [https://gohugo.io/getting-started/](https://gohugo.io/getting-started/)
-- **Blowfish Documentation:** [https://blowfish.page/docs/welcome/](https://blowfish.page/docs/welcome/)
-- **GitHub Pages:** [GitHub Pages](https://pages.github.com)
+- **Hugo:** <https://gohugo.io>
+- **Hugo Documentation:** <https://gohugo.io/getting-started/>
+- **Blowfish Documentation:** <https://blowfish.page/docs/welcome/>
+- **GitHub Pages:** <https://pages.github.com>

@@ -25,15 +25,13 @@ Albert-Einstein-Str. 47 \
 
 Alina Weber
 
-
 ## Contact
 
-E-Mail: info@webernet-online.de \
-You can also reach out to me using [GitHub](https://github.com/webealin) 
+E-Mail: <info@webernet-online.de> \
+You can also reach out to me using [GitHub](https://github.com/webealin)
 
 ## Privacy Policy (Datenschutzerklärung)
 
 Please also refer to the [Privacy Policy](/privacy-policy) for information about how personal data is collected, used and shared by this site.
 
 ## Disclaimer
-

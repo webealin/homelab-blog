@@ -22,18 +22,20 @@ In my current position I'm bridging the gap between data science, software devel
 - Writing guides on infrastructure automation and DevOps practices
 - Deepening expertise in Kubernetes and GitOps workflows
 
-## Resume 
+## Resume
 
 {{< timeline >}}
 
 {{< timelineItem icon="mug-hot" header="Professional Experience" badge="2018 - present" md=true >}}
 
 **IT Professional@Public Sector** (since 2018)
+
 - **DevOps:** Designed and established an infrastructure for software development in an air-gapped environment, enabling modern workflows for inhouse developers
 - **Development:** Built Python-based web applications for data analysis, workflow automation and web scraping using Containerization & CI/CD pipelines
 - **Infrastructure:** Deployed self-hosted collaboration platform for a small team (messaging, file sharing, video conferencing as well as monitoring & logging) during COVID-19
 
-**Side Projects**
+**Side Projects** (2023 - 2024)
+
 - **Freelancing@THz Group - Technical University Darmstadt:** Developed a PyQt desktop app enabling researchers to use a intuitive GUI to extend operational bandwith by digital postprocessing
 
 {{< /timelineItem >}}
@@ -41,12 +43,14 @@ In my current position I'm bridging the gap between data science, software devel
 {{< timelineItem icon="code" header="Skillset" md=true >}}
 
 **Infrastructure & Automation:**
+
 - **IaC & Configuration Management:** Ansible, Terraform
 - **Containerization:** Docker & Docker Compose
 - **Monitoring & Logging:** Grafana, Prometheus, Loki
 - **CI/CD:** GitLab CI/CD
 
 **Application Development:**
+
 - **Frameworks:** Flask, Django
 - **Databases:** PostgreSQL, SQLite
 - **Version Control:** Git, GitLab
