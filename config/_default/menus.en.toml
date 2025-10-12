@@ -20,7 +20,7 @@
   weight = 20
 
 [[main]]
-  name = "The Beginning - How to start a Blog"
+  name = "The Beginning - How to start a Blog (2025)"
   parent = "Guides"
   pageRef = "posts"
   weight = 10

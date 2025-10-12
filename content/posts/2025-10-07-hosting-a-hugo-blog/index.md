@@ -1,9 +1,11 @@
 ---
-title: How to start a blog (2025)
-description: Hosting a Hugo blog using GitHub Pages
+title: Hosting a Hugo blog using GitHub Pages
+description: Creating a Hugo blog, installing a theme, adding some content and hosting the page using GitHub Pages.
 date: 2025-10-07
 categories: ["tutorial"]
-tags: ["Hugo", "GitHub Pages", "Blog"]
+tags: ["Hugo", "Blowfish", "GitHub Pages", "Blog"]
+series: ["How to Start a Blog"]
+series_order: 1
 draft: false
 ---
 
@@ -286,4 +288,6 @@ So what's next? As stated in the beginning, this is supposed to be an article se
 References to the tools and products used within this tutorial
 
 - **Hugo:** [https://gohugo.io](https://gohugo.io)
+- **Hugo Documentation:** [https://gohugo.io/getting-started/](https://gohugo.io/getting-started/)
+- **Blowfish Documentation:** [https://blowfish.page/docs/welcome/](https://blowfish.page/docs/welcome/)
 - **GitHub Pages:** [GitHub Pages](https://pages.github.com)
